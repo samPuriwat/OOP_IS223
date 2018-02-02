@@ -8,6 +8,10 @@ public class PetApp {
         System.out.println(dog.getAge());
         dog.makeNoise();
 
+        Pet dog2 = new Dog("chayen", 3);
+        System.out.println(dog2.getName());
+        dog2.makeNoise();
+
 
 
 
